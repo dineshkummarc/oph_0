@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <IfModule mod_rewrite.c>
 Header set Access-Control-Allow-Origin "*"
 RewriteEngine on
@@ -13,4 +14,12 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$    /index.php/$2/?page=$1   [L]
 >>>>>>> repo1/main
+=======
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$    /index.php/$2/?page=$1   [L]
+>>>>>>> repo2/main
 </IfModule>
